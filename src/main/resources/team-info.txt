@@ -1,0 +1,262 @@
+##Most Common Players
+
+164  Virat Kohli
+1154  Ben Stokes
+1  MS Dhoni
+116  Bhuvneshwar Kumar
+8  Ravichandran Ashwin
+261  Kuldeep Yadav
+2740  Hardik Pandya
+203  Sunil Narine
+84  Gautam Gambhir
+107  Rohit Sharma
+25  Dwayne Bravo
+
+233  AB de Villiers
+1124  Jasprit Bumrah
+227  Shane Watson
+102  Dinesh Karthik
+
+210  Kieron Pollard
+181  Dan Christian
+177  Andre Russell
+135  Ajinkya Rahane
+
+1125  Lokesh Rahul1628
+41  Shikhar Dhawan
+
+127  Robin Uthappa
+86  Jaydev Unadkat
+### Pat Cummins
+30  Amit Mishra
+100  Ambati Rayudu
+202  Brendon McCullum
+123  Manish Pandey
+236  Chris Gayle
+
+16  Wriddhiman Saha
+76  Piyush Chawla
+59  Umesh Yadav
+282  Glenn Maxwell
+276  Karun Nair
+
+1113  Axar Patel
+
+2885  Rashid Khan
+836  Chris Morris
+2756  Sam Billings
+
+######### Teamwise Squads
+
+
+
+
+
+
+
+
+
+Team : CHENNAI SUPER KINGS
+1  MS Dhoni
+4944  KM Asif
+2756  Sam Billings
+4954  Chaitanya Bishnoi
+25  Dwayne Bravo
+140  Deepak Chahar
+24  Faf du Plessis
+103  Harbhajan Singh
+898  Imran Tahir
+9  Ravindra Jadeja
+297  Kedar Jadhav
+4942  Narayan Jagadeesan
+4953  Kshitiz Sharma
+1560  Monu Kumar
+3746  Lungi Ngidi
+14  Suresh Raina
+100  Ambati Rayudu
+1903  Mitchell Santner
+3811  Kanishk Seth
+1118  Karn Sharma
+4946  Dhruv Shorey
+1745  Shardul Thakur
+7  Murali Vijay
+227  Shane Watson
+2758  David Willey
+2749  Mark Wood
+
+Team : DELHI DAREDEVILS
+84  Gautam Gambhir
+3760  Abhishek Sharma
+1561  Avesh Khan
+969  Trent Boult
+181  Dan Christian
+3832  Sayan Ghosh
+253  Gurkeerat Mann Singh
+1563  Shreyas Iyer
+3013  Sandeep Lamichhane
+3789  Manjot Kalra
+282  Glenn Maxwell
+30  Amit Mishra
+94  Mohammed Shami
+836  Chris Morris
+773  Colin Munro
+57  Shahbaz Nadeem
+52  Naman Ojha
+2972  Rishabh Pant
+157  Harshal Patel
+1842  Liam Plunkett
+1906  Jason Roy
+1083  Vijay Shankar
+3764  Prithvi Shaw
+1749  Rahul Tewatia
+1740  Jayant Yadav
+
+Team : KINGS XI PUNJAB
+8  Ravichandran Ashwin
+3177  Akshdeep Nath
+158  Mayank Agarwal
+2968  Mayank Dagar
+1478  Ben Dwarshuis
+167  Aaron Finch
+236  Chris Gayle
+4959  Manzoor Dar
+187  David Miller
+4572  Mujeeb Ur Rahman
+276  Karun Nair
+1113  Axar Patel
+1125  Lokesh Rahul
+1106  Ankit Rajpoot
+2745  Pradeep Sahu
+1107  Mohit Sharma
+2746  Barinder Sran
+964  Marcus Stoinis
+89  Manoj Tiwary
+1480  Andrew Tye
+113  Yuvraj Singh
+
+Team : KOLKATA KNIGHT RIDERS
+102  Dinesh Karthik
+76  Piyush Chawla
+3646  Tom Curran
+1896  Cameron Delport
+37  Ishank Jaggi
+213  Mitchell Johnson
+261  Kuldeep Yadav
+179  Chris Lynn
+5105  Prasidh Krishna
+203  Sunil Narine
+2738  Nitish Rana
+177  Andre Russell
+4960  Javon Searles
+3779  Shivam Mavi
+3761  Shubman Gill
+3830  Rinku Singh
+127  Robin Uthappa
+166  Vinay Kumar
+264  Apporv Wankhade
+
+Team : MUMBAI INDIANS
+107  Rohit Sharma
+1124  Jasprit Bumrah
+3763  Rahul Chahar
+913  Ben Cutting
+588  Akila Dananjaya
+182  JP Duminy
+2975  Ishan Kishan
+2739  Siddhesh Lad
+872  Evin Lewis
+4945  Sharad Lumba
+4951  Mayank Markande
+730  Mitchell McClenaghan
+434  Adam Milne
+4952  Mohsin Khan
+1594  Mustafizur Rahman
+4958  MD Nidheesh
+2740  Hardik Pandya
+3183  Krunal Pandya
+210  Kieron Pollard
+3774  Anukul Roy
+91  Pradeep Sangwan
+4943  Tajinder Singh
+99  Aditya Tare
+163  Saurabh Tiwary
+108  Suryakumar Yadav
+
+Team : RAJASTHAN ROYALS
+135  Ajinkya Rahane
+32  Ankit Sharma
+412  Anureet Singh
+3502  Jofra Archer
+148  Stuart Binny
+4956  Aryaman Birla
+509  Jos Buttler
+817  Dushmantha Chameera
+3226  Prashant Chopra
+1748  Shreyas Gopal
+3834  Krishnappa Gowtham
+3869  Heinrich Klaasen
+101  Dhawal Kulkarni
+921  Ben Laughlin
+2970  Mahipal Lomror
+4950  Sudhesan Midhun
+258  Sanju Samson
+4955  Jatin Saxena
+3887  D'Arcy Short
+1304  Ish Sodhi
+1154  Ben Stokes
+3838  Rahul Tripathi
+86  Jaydev Unadkat
+
+Team : ROYAL CHALLENGERS BANGALORE
+164  Virat Kohli
+1735  Moeen Ali
+968  Corey Anderson
+3187  Murugan Ashwin
+111  Yuzvendra Chahal
+1111  Aniket Choudhary
+820  Colin de Grandhomme
+834  Quinton de Kock
+4957  Pavan Deshpande
+233  AB de Villiers
+4949  Aniruddha Joshi
+1564  Sarfaraz Khan
+3835  Kulwant Khejroliya
+202  Brendon McCullum
+72  Mandeep Singh
+3840  Mohammed Siraj
+53  Pawan Negi
+44  Parthiv Patel
+3824  Navdeep Saini
+307  Tim Southee
+1085  Manan Vohra
+2973  Washington Sundar
+967  Chris Woakes
+59  Umesh Yadav
+
+Team : SUNRISERS HYDERABAD
+440  Kane Williamson
+3839  Tanmay Agarwal
+2964  Khaleel Ahmed
+3825  Basil Thampi
+1555  Ricky Bhui
+69  Bipul Sharma
+2722  Carlos Brathwaite
+41  Shikhar Dhawan
+95  Shreevats Goswami
+511  Alex Hales
+4965  Mehdi Hasan
+1556  Deepak Hooda
+1299  Chris Jordan
+1086  Siddarth Kaul
+116  Bhuvneshwar Kumar
+618  Mohammad Nabi
+3831  T Natarajan
+123  Manish Pandey
+96  Yusuf Pathan
+2885  Rashid Khan
+1115  Sachin Baby
+16  Wriddhiman Saha
+1112  Sandeep Sharma
+201  Shakib Al Hasan
+1521  Billy Stanlake
+

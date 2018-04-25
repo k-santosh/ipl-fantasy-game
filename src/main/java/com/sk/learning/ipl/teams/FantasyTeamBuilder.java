@@ -1,6 +1,5 @@
 package com.sk.learning.ipl.teams;
 
-import java.util.HashMap;
 import java.util.LinkedHashMap;
 import java.util.Map;
 
@@ -47,7 +46,7 @@ public class FantasyTeamBuilder {
 	
 	public static FantasyTeam getAyushiFantasyTeam() {
 		Integer captainId = 1;
-		Integer viceCaptainId = 2164;
+		Integer viceCaptainId = 164;
 
 		Map<Integer, Integer> dream11 = new LinkedHashMap<Integer, Integer>();
 		dream11.put(1, 0);
@@ -95,7 +94,7 @@ public class FantasyTeamBuilder {
 		dream11.put(127, 0);
 		dream11.put(1124, 0);
 		dream11.put(86, 0);
-//		dream11.put(0, 0);
+		dream11.put(0, 0);
 		dream11.put(30, 0);
 		dream11.put(100, 0);
 		dream11.put(202, 0);

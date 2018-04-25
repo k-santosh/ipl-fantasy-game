@@ -34,12 +34,16 @@ public class ScoreCalculation {
 		teamInfo = new TeamsInfo();
 	}
 	
-	public void getPlayersScore(JSONObject outputObj) throws JSONException {
+	public void getPlayersScore(String team1, String team2, JSONObject outputObj) throws JSONException {
 		JSONObject matchInfoObj =  outputObj.getJSONObject("matchInfo");
-		String playerOfTheMatch = matchInfoObj.getJSONObject("additionalInfo").getString("result.playerofthematch");
-		System.out.println("Player of the Match : " + playerOfTheMatch);
-		
-		idsAndPlayers = teamInfo.getAllPlayers(playerOfTheMatch);
+		String playerOfTheMatch = "EMPTY";
+		try {
+			playerOfTheMatch = matchInfoObj.getJSONObject("additionalInfo").getString("result.playerofthematch");
+			System.out.println("Player of the Match : " + playerOfTheMatch);
+		} catch (Exception e) {
+			System.out.println("Could not find PLAYER OF THE MATCH " + e.getLocalizedMessage());
+		}
+		idsAndPlayers = teamInfo.getAllPlayers(team1, team2, playerOfTheMatch);
 		
 		JSONArray inningsArr =  outputObj.getJSONArray("innings");
 		
@@ -95,8 +99,10 @@ public class ScoreCalculation {
 			scores = runs;
 		} else if(runs>=30 && runs<50) {
 			scores = runs + 15;
-		} else if(runs>=50 && runs<100) {
+		} else if(runs>=50 && runs<75) {
 			scores = runs + 25;
+		} else if(runs>=75 && runs<100) {
+			scores = runs + 35;
 		} else if (runs >=100) {
 			scores = runs + 50;
 		}
@@ -111,7 +117,7 @@ public class ScoreCalculation {
 		int scores = 0;
 		if(wickets <3) {
 			scores = wickets*10;
-		} else if(wickets==30) {
+		} else if(wickets==3) {
 			scores = wickets*10 + 30;
 		} else if(wickets==4) {
 			scores = wickets*10 + 50;
@@ -125,15 +131,15 @@ public class ScoreCalculation {
 		}
 	}
 	
-	public void calculateFantsyTeamScore(FantasyTeam fantasyTeam) {
+	public String calculateFantsyTeamScore(FantasyTeam fantasyTeam) throws JSONException {
 		String format = "%-10s%-20s%s%n";
 		Map<Integer, Integer> teamMembers = fantasyTeam.getDream11();
-		System.out.printf(format, "Id", "Name", "Score");
-		System.out.println("========== " + fantasyTeam.getTeamOwner()+ "'s Score calculation STARTED ==========");
+//		System.out.printf(format, "Id", "Name", "Score");
+//		System.out.println("========== " + fantasyTeam.getTeamOwner()+ "'s Score calculation STARTED ==========");
+		String jsonStr = "{\n";
 		for (Entry<Integer, Integer> entry : teamMembers.entrySet()) {
 			Integer playerId = entry.getKey();
 			Player player = idsAndPlayers.get(playerId);
-//			System.out.println("Player id : " + playerId + " Capt Id : " + fantasyTeam.getCaptainId() + " vice Cap : "+ fantasyTeam.getViceCaptainId());
 			if(playerId.equals(fantasyTeam.getCaptainId())) {
 				entry.setValue((player.getScore() != null) ? (player.getScore()*2): null);
 			} else if(playerId.equals(fantasyTeam.getViceCaptainId())) {
@@ -142,9 +148,14 @@ public class ScoreCalculation {
 			} else {
 				entry.setValue((player.getScore() != null) ? player.getScore(): null);
 			}
-			System.out.printf(format, entry.getKey(), player.getFullName(), entry.getValue());
+//			System.out.printf(format, entry.getKey(), player.getFullName(), entry.getValue());
+//			String score = ((entry.getValue() != null)? entry.getValue().toString() :"-");
+			jsonStr +="\"" + player.getFullName() +"\" : " + entry.getValue() + ",\n";
 		}
-		System.out.println("========== " + fantasyTeam.getTeamOwner()+ "'s Score calculation FINISHED ==========\n");
+		jsonStr = jsonStr.substring(0, jsonStr.length()-2) + "\n}\n";
+//		System.out.println(jsonStr);
+//		System.out.println("========== " + fantasyTeam.getTeamOwner()+ "'s Score calculation FINISHED ==========\n");
+		return jsonStr;
 	}
 	
 }
